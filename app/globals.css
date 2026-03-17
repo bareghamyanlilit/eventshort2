@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+* {
+  font-family: "am";
+}
+
+@font-face {
+  font-family: "ArmAllegroU";
+  src: url("/font/ArmAllegroU.woff2");
+}
+
+@font-face {
+  font-family: "ArmDecorativeU";
+  src: url("/font/ArmenianDecorativeU-Italic.woff2");
+}
+
+.FontArmAllegroU {
+  font-family: "ArmAllegroU";
+}
+
+.FontArmDecorativeU {
+  font-family: "ArmDecorativeU";
+}
+
+@media (min-width: 768px) {
+  @keyframes bounceY {
+    0% {
+      transform: translateY(0);
+      width: 560px;
+      height: 360px;
+      z-index: 6;
+    }
+    50% {
+      transform: translateY(-500px);
+      z-index: 6;
+    }
+    100% {
+      width: 560px;
+      height: 360px;
+      z-index: 50;
+    }
+  }
+
+  .animate-bounceY {
+    animation: bounceY 2s ease;
+  }
+}
+
+@media (max-width: 768px) {
+  @keyframes bounceY {
+    0% {
+      transform: translateY(0);
+      width: 280px;
+      height: 180px;
+      left: 0;
+      top: 0;
+      z-index: 6;
+    }
+    50% {
+      transform: translateY(-200px);
+      left: 170px;
+      z-index: 20;
+    }
+    100% {
+      width: 100vw;
+      height: 100vh;
+      top:-240px;
+      z-index: 50;
+    }
+  }
+
+  .animate-bounceY {
+    animation: bounceY 2s ease;
+  }
+}
