@@ -37,30 +37,30 @@ export function Envelop({ openEnvelope, setOpenEnvelope }: any) {
           </div>
 
             <div className="mt-20 text-center flex flex-col gap-3  py-10 px-5">
-              <h3 className="FontArmDecorativeU  relative text-[32px] text-[#7D705E]">
+              <h3 className="FontArmDecorativeU  relative text-[32px] text-vrayi">
                 ՍԻՐԵԼԻՆԵՐ
-                <p className="FontArmDecorativeU absolute -z-1 text-5xl top-3 left-1/2 -translate-x-1/2 text-[#7D705E1A]">
+                <p className="FontArmDecorativeU absolute -z-1 text-5xl top-3 left-1/2 -translate-x-1/2 text-hetevi">
                   ՍԻՐԵԼԻՆԵՐ
                 </p>
               </h3>
-              <h3 className="FontArmDecorativeU relative text-[32px] text-[#7D705E]">
+              <h3 className="FontArmDecorativeU relative text-[32px] text-vrayi">
                 Սիրով հրավիրում եմ միասին նշելու իմ
-                <p className="FontArmDecorativeU text-nowrap absolute -z-1 text-5xl top-3 left-1/2 -translate-x-1/2 text-[#7D705E1A]">
+                <p className="FontArmDecorativeU text-nowrap absolute -z-1 text-5xl top-3 left-1/2 -translate-x-1/2 text-hetevi">
                   Սիրով հրավիրում եմ <br />
                   միասին նշելու իմ
                 </p>
               </h3>
-              <h3 className="FontArmDecorativeU relative text-8xl text-[#7D705E]">
+              <h3 className="FontArmDecorativeU relative text-8xl text-vrayi">
                 18
               </h3>
-              <h3 className="FontArmDecorativeU relative text-xl text-[#7D705E]">
+              <h3 className="FontArmDecorativeU relative text-xl text-vrayi">
                 ԱՄՅԱԿԸ
-                <p className="FontArmDecorativeU absolute -z-1 text-5xl top-0 left-1/2 -translate-x-1/2 text-[#7D705E1A]">
+                <p className="FontArmDecorativeU absolute -z-1 text-5xl top-0 left-1/2 -translate-x-1/2 text-hetevi">
                   ԱՄՅԱԿԸ
                 </p>
               </h3>
           </div>
-          <div className="mt-20 flex justify-end items-center gap-1 text-[#7D705E] text-start px-10">
+          <div className="mt-20 flex justify-end items-center gap-1 text-vrayi text-start px-10">
             <div className="flex flex-col  ">
               <p className="FontArmDecorativeU text-2xl">May</p>
               <p className="FontArmDecorativeU text-[32px]">14</p>
