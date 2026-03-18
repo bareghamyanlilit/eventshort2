@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Ծննդյան հրավեր",
   openGraph: {
     title: "Ծննդյան հրավեր",
-    description: "Սիչով հրավիրում եմ․․․",
+    description: "Սիրով հրավիրում եմ․․․",
     url: "https://event-short-2.vercel.app/",
     siteName: "Ծննդյան հրավեր",
     images: [
